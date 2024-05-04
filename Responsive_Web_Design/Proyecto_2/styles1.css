@@ -1,0 +1,93 @@
+h1, h2, p {    /* element o Selector de tipo, es la etiqueta o propiedad que quiero aplicarle diseño */
+    text-align: center;  /* property: value; */
+}
+
+body {
+    background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); 
+    font-family: sans-serif; /*Cambia la fuente*/
+    padding: 20px;  /*Se  usa para definir el espacio de relleno de alrededor del contenido de un elemento*/
+}
+
+h1,h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*Las fuentes que están después de la , son de respaldo en caso de que no estén disponibles las demás*/
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+.bottom-line{
+    margin-top: 25px;
+}
+
+.menu {   /*Selector de clase*/
+    width: 80%;  /*Con esto designamos el ancho que queremos que ocupe*/
+    background-color: burlywood;
+    margin-left: auto;   /*Estos "margin" con el "Auto" sirven para centrar el div*/ 
+    margin-right: auto;
+    padding: 20px; /*Se usan para definir espacio o margen interno alrededor del contenido de un elemento*/
+    max-width: 500px; /*Se usa para establecer el ancho máximo que puede tener*/
+}
+
+.established {
+font-style: italic;
+}
+
+.flavor, .dessert { 
+    text-align:left;
+    width:75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+.item p {  /*Se coloca así porque se seleccionan los elementos p dentro de la clase item*/
+    display: inline-block; /*inline-block sirve para que los elementos queden en la misma linea*/
+    margin-top: 5px; /*Se usa para controlar los espacios entre los bordes de un elemento*/
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+/*FOOTER*/
+footer {
+    font-size: 14px;
+}
+
+a{
+    color: black;
+}
+
+a:visited {   /*Visited: Se usa para cuando se haya visitado el link este se coloque del color que yo coloque*/
+    color: black;
+}
+
+a:hover { /*hover: Se usa para que cuando se pase el cursor encima del link este cambie de color*/
+    color: brown;
+}
+a:active{  /*active: Se usa para que cuando se da click sobre el link*/
+    color: brown;
+}
+
+.address {
+    margin-bottom: 5px;;
+}
