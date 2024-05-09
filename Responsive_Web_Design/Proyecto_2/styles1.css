@@ -3,10 +3,14 @@ h1, h2, p {    /* element o Selector de tipo, es la etiqueta o propiedad que qui
 }
 
 body {
-    background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); 
+    background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); /*Coloca imagen de fondo*/
     font-family: sans-serif; /*Cambia la fuente*/
     padding: 20px;  /*Se  usa para definir el espacio de relleno de alrededor del contenido de un elemento*/
 }
+
+/*#menu {  Este lleva # porque se usa cuando se quiere utilizar un atributo especifico "Id"
+    width: 300px;
+} */ 
 
 h1,h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*Las fuentes que están después de la , son de respaldo en caso de que no estén disponibles las demás*/
@@ -77,7 +81,7 @@ a{
     color: black;
 }
 
-a:visited {   /*Visited: Se usa para cuando se haya visitado el link este se coloque del color que yo coloque*/
+a:visited {   /*Pseudo-selector: Visited: Se usa para cuando se haya visitado el link este se coloque del color que yo coloque*/
     color: black;
 }
 
