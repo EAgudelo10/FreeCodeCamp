@@ -1,0 +1,106 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-image:url(https://img.freepik.com/vector-gratis/diseno-fondo-acuarela-arco-iris_23-2149573252.jpg?w=900&t=st=1715296673~exp=1715297273~hmac=9c5bae02cbcb1c2408ac82022eed81ce7834a7d65fdc42cb59d60b977dba0b20);
+    /*max-width: 900px;*/
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+}
+
+.marker {
+    height: 25px; width: 200px;
+    margin: 10px auto;
+}
+
+/*Colores*/
+/*Colores primarios*/
+.black {
+    /*background-color: rgb(0,0,0);*/
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.8) 100%);
+
+}
+
+.white {
+    /*background-color: rgb(255,255,255);*/
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.8) 100%);
+
+}
+
+.gray {
+    /*background-color: rgb(127, 127, 127);*/
+    background: linear-gradient(180deg, rgb(128, 128, 128) 0%, rgb(192, 192, 192) 50%, rgb(96, 96, 96) 100%);
+
+}
+
+.red {
+    /*background-color: rgb(255,0,0);*/
+    background: linear-gradient(180deg,rgb(122,74,14)0%, rgb(245,62,113)50%, rgb(162,27,27)100%);
+}
+
+.green {
+   /* background-color: rgb(0,255,0);*/
+   /*background-color: #00ff00;*/
+   background: linear-gradient(180deg,#55680D, #71F53E, #116C31);/*rgb(255,0,0) 75%, rgb(0,255,0), rgb(0,0,255)); */
+}
+
+.blue {
+   /* background-color: rgb(0,0,255); */
+   /* background-color: hsl(240, 100%, 50%);*/
+   background: linear-gradient(rgb(0, 0, 128), rgb(0, 191, 255), rgb(0, 0, 205));
+
+
+}
+
+/*Colores Secundarios*/
+.amarillo {
+    /*background-color: rgb(255,255,0);*/
+    background: linear-gradient(rgb(202, 136, 9), rgb(255, 200, 0), rgb(158, 93, 3));
+}
+
+.cian {
+    /*background-color: rgb(0,255,255);*/
+    background: linear-gradient(rgb(0, 201, 214), rgb(66, 189, 215), rgb(0, 119, 139));
+
+}
+
+.magenta {
+    /*background-color: rgb(255,0,255);*/
+    
+}
+
+/*Colores Terciarios*/
+.naranja {
+    /*background-color: rgb(255,127,0);*/
+    
+}
+
+.spring-green {
+    /*background-color: rgb(0,255,127);*/
+    
+}
+
+.violeta {
+    /*background-color: rgb(127,0,255);*/
+    
+}
+
+.chartreuse-green {
+    /*background-color: rgb(127,255,0);*/
+    
+}
+
+.azure {
+    /*background-color: rgb(0,127,255);*/
+    
+}
+
+.rose {
+    /*background-color: rgb(255,0,127);*/
+    
+}
+.container {
+    /*background-color: rgb(255,255,255);*/
+    padding: 10px 0;
+}

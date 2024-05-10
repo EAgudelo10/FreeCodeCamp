@@ -32,7 +32,7 @@ h1 {
 }
 /*box-shadow: offsetX offsetY blurRadius spreadRadius color; este es para el sombreado, el blurRadius maneja lo difuminación y spreadRadius*/
 .red {
-    /*background-color: rgb(255,0,0);*/
+    /*background-color: rgb(255,0,0); Color en rgb*/
   /*  background:linear-gradient(90deg, red, green); /*Hace los cambios de colores*/ 
 /*    background: linear-gradient(90deg, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0,0,255)); /*Acepta más de 2 colores*/
  /*   background: linear-gradient(90deg, rgb(255, 0, 0) 75%, rgb(0, 255, 0), rgb(0,0,255)); /*El 75% significa que ocupa ese espacio ese color*/
@@ -42,6 +42,7 @@ h1 {
 }
 .green {
     background: linear-gradient( #55680D, #71F53E, #116C31); /*Aquí se hizo con colores hexagesimales*/
+    /*background-color: #00ff00; Color en hexadecimal*/
     /*box-shadow: 5px 5px 5px green /*Ese 3er valor limita las sombras para que tengas más transparencia-difuminado*/
     box-shadow: 0 0 20px 0 #3B7E20CC;
 }
