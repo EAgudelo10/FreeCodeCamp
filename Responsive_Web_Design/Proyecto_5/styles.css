@@ -1,0 +1,55 @@
+body {
+    width: auto;
+    height: 10vh; 
+    background-color: #1b1b32ee;
+    color: #f5f6f7;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+h1, p {
+    text-align: center;
+    
+}
+
+p{
+    font-style: italic;
+    font-size: 1.25rem;
+    line-height: 0.1;
+}
+h1{
+    padding-top: 30px;
+}
+
+
+label {
+    display: block;
+    margin: 0.9rem;
+    
+
+}
+form {
+ max-width: 720px;
+ margin-top: 5.3%;
+ 
+}
+
+.identicacion {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+}
+.texto {
+    margin-bottom: 10px; /* Agrega margen inferior para separar los cuadros de texto */
+  padding: 5px; /* Agrega un poco de relleno para dar espacio al contenido */
+  border: 1px solid #ccc; /* Agrega un borde para resaltar los cuadros */
+
+}
+
+input, textarea, select {
+    width: 95%;
+    margin: 10px 0 0 0;
+    min-height: 2em;   
+}
+
+
